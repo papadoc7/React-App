@@ -7,7 +7,7 @@ import {
     Marker
 } from "react-google-maps";
 
-const MapComponent = compose(
+const ComponentMap = compose(
     withProps({
         /**
          * Note: create and replace your own key in the Google console.
@@ -31,4 +31,4 @@ const MapComponent = compose(
     </GoogleMap>
 ));
 
-export default MapComponent;
+export default ComponentMap;

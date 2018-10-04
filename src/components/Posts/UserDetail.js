@@ -1,6 +1,6 @@
 // eslint-disable no-unused-vars
 import React from 'react';
-import MapComponent from './MapComponent';
+import ComponentMap from './ComponentMap';
 
 const PostSingle = ({ userDetail }) => (
     <div>
@@ -67,7 +67,7 @@ const PostSingle = ({ userDetail }) => (
                 </div>
             </div>
         </div>
-        <MapComponent isMarkerShown lat={userDetail.address.geo.lat} lng={userDetail.address.geo.lng} center={{ lat: userDetail.address.geo.lat, lng: userDetail.address.geo.lng }} mapGeo={userDetail.address.geo} />
+        <ComponentMap isMarkerShown lat={userDetail.address.geo.lat} lng={userDetail.address.geo.lng} center={{ lat: userDetail.address.geo.lat, lng: userDetail.address.geo.lng }} mapGeo={userDetail.address.geo} />
     </div>
 );
 

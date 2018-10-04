@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class NewPostForm extends Component {
 
@@ -10,7 +11,7 @@ class NewPostForm extends Component {
                 </div>
                 <div className="col s6">
                     <div className="alert alert-success">
-                        <strong>Success!</strong> Your Post is successfully created!
+                        <strong>Success!</strong> Your Post is successfully created! <Link to="/" >See all Posts</Link>
                 </div>
                     <div className="col s3">
                     </div>
